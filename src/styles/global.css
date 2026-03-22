@@ -204,6 +204,13 @@ body {
   scroll-snap-type: x mandatory;
   -webkit-overflow-scrolling: touch;
   touch-action: pan-x;
+  /* Hide scrollbar; navigation uses arrows / touch swipe */
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.carousel-track::-webkit-scrollbar {
+  display: none;
 }
 
 .carousel-desktop .product-card {
