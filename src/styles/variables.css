@@ -1,0 +1,10 @@
+:root {
+  --text: #1a1a1a;
+  --muted: #777777;
+  --card-bg: #fafafa;
+  --hero-gradient: linear-gradient(90deg, #5895f0 0%, #f1b662 100%);
+  --shadow-card: 0 4px 4px rgba(0, 0, 0, 0.25);
+  --shadow-device: 0 11.526px 36.885px rgba(0, 0, 0, 0.24);
+  --transition-fast: 150ms ease;
+  --transition-medium: 300ms ease;
+}

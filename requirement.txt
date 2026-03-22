@@ -1,0 +1,198 @@
+1. REQUIREMENT DOCUMENT (Option B: React)
+
+This is a clean, structured, implementation-ready document derived fully from your PDF (no missing points).
+
+📌 Project Overview
+
+Build a pixel-perfect, fully responsive landing page for Grafterr using React (Option B).
+
+All content must be dynamic (NO hardcoding)
+Data must come from a local JSON file via simulated API
+Must include:
+Hero Section
+Features Section (with carousel)
+🧱 Tech Stack Requirements
+React 18 (Functional Components ONLY)
+Hooks:
+useState
+useEffect
+useCallback
+Styling:
+CSS Modules OR Styled Components OR plain CSS
+❌ Tailwind / Bootstrap NOT allowed
+❌ Inline styles NOT allowed
+Project setup:
+Vite / CRA / Next.js (any one)
+📂 Required File Structure
+grafterr-landing/
+│
+├── public/
+│   └── images/
+│
+├── src/
+│   ├── components/
+│   │   ├── ui/
+│   │   │   ├── GradientText.jsx
+│   │   │   ├── GradientButton.jsx
+│   │   │   ├── ProductCard.jsx
+│   │   │   ├── Carousel.jsx
+│   │   │   ├── FloatingShape.jsx
+│   │   │   ├── Skeleton.jsx
+│   │
+│   ├── sections/
+│   │   ├── HeroSection.jsx
+│   │   ├── FeaturesSection.jsx
+│   │
+│   ├── hooks/
+│   │   ├── useContent.js
+│   │   ├── useCarousel.js
+│   │
+│   ├── services/
+│   │   ├── api.js
+│   │
+│   ├── data/
+│   │   ├── content.json
+│   │
+│   ├── styles/
+│   │   ├── variables.css
+│   │   ├── global.css
+│
+│   ├── App.jsx
+│   ├── main.jsx
+🧩 Sections to Implement
+1. Hero Section
+Gradient headline ("technology provider")
+Subheadline
+CTA button (gradient background)
+Floating shapes:
+Teal circle
+Coral rectangle
+2. Features Section
+Title + accent text ("grow your business")
+Subtitle + divider
+Carousel with 3 products:
+Point of Sale
+Self-service
+Kitchen Management
+Navigation arrows (left/right)
+⚙️ React Fundamentals (MANDATORY)
+Use functional components only
+Use hooks:
+useState → state management
+useEffect → data fetching
+useCallback → optimized handlers
+Create custom hooks:
+useContent → API/data fetching
+useCarousel → carousel logic
+Use component composition (small reusable components)
+🎨 UI & Styling Requirements
+Pixel-perfect match with Figma
+Fully responsive:
+Mobile: 375px
+Tablet
+Desktop: 1440px
+Use:
+CSS Modules OR CSS-in-JS
+No inline styles
+Include:
+Gradient text
+Gradient buttons
+Smooth hover animations
+Floating shape animations
+🔄 Data & API Layer
+
+Create: src/services/api.js
+
+Functions:
+
+fetchHeroContent()
+fetchFeaturesContent()
+Requirements:
+Return Promise
+Simulate delay: 1000–1500ms
+Use setTimeout
+📦 Content Source
+
+All content must come from:
+
+src/data/content.json
+Structure:
+{
+  "navigation": {
+    "logo": {},
+    "links": [],
+    "cta": {}
+  },
+  "hero": {
+    "headlinePrefix": "",
+    "headlineGradient": "",
+    "subheadline": "",
+    "cta": {},
+    "decorativeShapes": []
+  },
+  "featuresSection": {
+    "title": "",
+    "titleAccent": "",
+    "subtitle": "",
+    "products": []
+  },
+  "carousel": {
+    "itemsPerView": {
+      "mobile": 1,
+      "tablet": 2,
+      "desktop": 3
+    },
+    "showArrows": true
+  }
+}
+
+❗ NO hardcoded content in JSX
+
+🎠 Carousel Behavior
+Desktop:
+Show 3 items
+Move 1 item per click
+Tablet:
+Show 2 items
+Mobile:
+Show 1 item
+Enable touch swipe
+Additional:
+Smooth transition (300ms)
+Optional: disable arrows at edges
+🔄 Loading & Error States
+Loading:
+Show Skeleton components
+Simulate delay (1000–1500ms)
+Fade-in content after load
+Error:
+Show error message
+Include Retry button
+🧠 Logic Requirements
+Async data fetching
+Proper dependency arrays in useEffect
+Event handling:
+Button clicks
+Swipe gestures
+Clean, modular code
+📊 Evaluation Criteria (React)
+Visual Accuracy — 30%
+Dynamic Data — 20%
+Code Organization — 25%
+Carousel — 15%
+Loading/Error — 10%
+🚫 Prohibited
+❌ Hardcoded content
+❌ Tailwind / Bootstrap
+❌ Class components
+❌ Missing loading/error states
+📤 Submission Requirements
+GitHub repo
+Live URL (Vercel / Netlify)
+README must include:
+Stack used
+Setup instructions
+Approach explanation
+Screenshots
+Include:
+Figma vs Implementation comparison

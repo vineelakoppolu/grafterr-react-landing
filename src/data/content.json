@@ -1,0 +1,89 @@
+{
+  "navigation": {
+    "logo": {
+      "name": "Grafterr"
+    },
+    "links": [
+      { "label": "Industries", "href": "#" },
+      { "label": "Products", "href": "#" },
+      { "label": "Resources", "href": "#" }
+    ],
+    "cta": {
+      "label": "Login",
+      "href": "#"
+    }
+  },
+  "hero": {
+    "headlinePrefix": "Looking for a new",
+    "headlineGradient": "technology provider?",
+    "subheadlineBefore": "Explore our ",
+    "subheadlineEmphasis": "success stories ",
+    "subheadlineAfter": "to see how businesses like yours have transformed with Grafterr's technology.",
+    "cta": {
+      "label": "Learn more",
+      "href": "#"
+    },
+    "decorativeShapes": []
+  },
+  "featuresSection": {
+    "title": "More ways",
+    "titleAccent": "Grafterr",
+    "titleSuffix": "can help you grow your business",
+    "subtitle": "An award-winning, end-to-end restaurant technology & payments platform, designed to streamline food service and automate complex venue operations",
+    "decorativeShapes": [
+      {
+        "id": "feature-shape-left",
+        "variant": "image",
+        "position": "feature-left",
+        "image": "/images/Vector 7.png"
+      },
+      {
+        "id": "feature-shape-right",
+        "variant": "image",
+        "position": "feature-right",
+        "image": "/images/red.png"
+      }
+    ],
+    "dividerImage": "/images/348e4f37-6d35-4e9a-a5a6-037cfd92109b.svg",
+    "products": [
+      {
+        "id": "pos",
+        "title": "Point of sale",
+        "image": "/images/f8905a9b-317f-4185-b0ad-89901b732c4b (1).png",
+        "alt": "Point of sale terminal",
+        "variant": "pos"
+      },
+      {
+        "id": "self-service",
+        "title": "Self-service",
+        "image": "/images/6d2d7705-9201-47c3-a6e1-3477bd174ff0.png",
+        "alt": "Self-service kiosk",
+        "variant": "self"
+      },
+      {
+        "id": "kitchen-management",
+        "title": "Kitchen management",
+        "image": "/images/1502ce69-25ed-41a0-b8d2-03229e93984e.png",
+        "alt": "Kitchen management display",
+        "variant": "kitchen"
+      }
+    ]
+  },
+  "carousel": {
+    "itemsPerView": {
+      "mobile": 1,
+      "tablet": 2,
+      "desktop": 3
+    },
+    "showArrows": true,
+    "arrowIcons": {
+      "prev": "/images/c3b9e461-46ae-4a25-bff1-4910bfbb159c.svg",
+      "next": "/images/f42a8c5a-9ff7-4baf-9bb0-e186c7b9cc8c.svg"
+    }
+  },
+  "ui": {
+    "errorTitle": "Something went wrong",
+    "errorRetryLabel": "Retry",
+    "errorFallbackMessage": "Failed to load landing page content. Please try again."
+  }
+}
